@@ -31,9 +31,9 @@ export default function App() {
       </header>
 
       <main id="top">
-        <section className="relative flex min-h-[calc(100svh-5rem)] items-center overflow-hidden">
+        <section className="relative overflow-hidden">
           <HeroGrid />
-          <div className="relative z-20 mx-auto w-full max-w-6xl px-5 py-16 md:px-10 md:py-24">
+          <div className="relative z-20 mx-auto w-full max-w-6xl px-5 py-14 md:px-10 md:py-16">
             <p className="fade-up text-xs font-semibold uppercase tracking-[0.22em] text-neon">
               {site.role}
             </p>
