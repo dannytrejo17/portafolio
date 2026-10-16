@@ -115,7 +115,26 @@ export default function App() {
                 Abierto a proyectos, colaboraciones y roles de desarrollo web.
               </p>
             </div>
-            <div className="flex flex-col gap-4 md:items-end">
+            <div className="flex flex-col gap-5 md:items-end">
+              <a
+                href={site.links.whatsapp}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`WhatsApp ${site.phone}`}
+                className="inline-flex items-center gap-3 rounded-full bg-[#25D366] px-5 py-3 text-sm font-semibold text-[#06210f] shadow-[0_0_28px_rgba(37,211,102,0.35)] transition hover:bg-[#3ee57a]"
+              >
+                <img
+                  src="https://cdn.simpleicons.org/whatsapp/06210f"
+                  alt=""
+                  width={26}
+                  height={26}
+                  className="h-[26px] w-[26px]"
+                />
+                <span className="flex flex-col items-start leading-tight">
+                  <span>WhatsApp</span>
+                  <span className="text-xs font-medium opacity-80">{site.phone}</span>
+                </span>
+              </a>
               <a
                 href={`mailto:${site.email}`}
                 className="display text-xl font-semibold text-neon neon-text transition hover:text-neon-soft md:text-2xl"

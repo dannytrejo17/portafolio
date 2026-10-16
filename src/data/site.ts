@@ -20,9 +20,11 @@ export const site = {
       },
     ],
   },
+  phone: '+34 670 701 033',
   links: {
     github: 'https://github.com/dannytrejo17',
     linkedin: 'https://www.linkedin.com/in/danny-yauri-trejo-a7229136b/',
+    whatsapp: 'https://wa.me/34670701033?text=Hola%20Danny%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20hablar%20sobre%20un%20proyecto.',
   },
   stack: [
     {
